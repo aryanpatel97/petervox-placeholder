@@ -1,0 +1,206 @@
+.contact-section {
+  background-color: $theme-primary;
+  padding-top: 240px;
+  padding-bottom: 89px;
+  color: $white;
+
+  @media #{$md} {
+    padding-top: 170px;
+  }
+
+  .contact-title {
+    font-size: 50px;
+    line-height: 62px;
+    letter-spacing: -0.9px;
+    margin-bottom: 25px;
+
+    @media #{$md} {
+      font-size: 30px;
+      line-height: 40px;
+      letter-spacing: -0.54px;
+    }
+  }
+
+  .contact-info {
+    .email-title {
+      color: $white;
+      opacity: 70%;
+      font-size: 16px;
+      line-height: 26px;
+      letter-spacing: -0.32px;
+      opacity: 50%;
+      margin-bottom: 16px;
+    }
+
+    .email-info,
+    .call-info {
+      font-size: 16px;
+      line-height: 26px;
+      letter-spacing: -0.32px;
+      color: $white;
+      margin-bottom: 17px;
+
+      span {
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: -0.32px;
+        color: $white;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .contact-address {
+
+    .addre-title {
+      color: $white;
+      opacity: 70%;
+      font-size: 16px;
+      line-height: 26px;
+      letter-spacing: -0.32px;
+      opacity: 50%;
+      margin-bottom: 15px;
+    }
+
+    .addre-details {
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: -0.32px;
+      color: $white;
+      margin-bottom: 14px;
+    }
+
+    .contact-link-get {
+      color: $white;
+      font-size: 16px;
+      line-height: 26px;
+      letter-spacing: -0.32px;
+    }
+  }
+}
+
+.center-accodian-section {
+  padding-top: 100px;
+  padding-bottom: 300px;
+
+  @media #{$md} {
+    padding-top: 60px;
+    padding-bottom: 265px;
+  }
+
+  .help-advice-main {
+    .content-1 {
+      border-bottom: 1px solid #ddd;
+      padding: 33px 0;
+
+      .help-advice-content {
+        display: none;
+        font-size: 16px;
+        line-height: 26px;
+        color: $black;
+        opacity: 90%;
+        letter-spacing: 0.32px;
+        padding-top: 26px;
+        padding-bottom: 26px;
+
+        @media #{$md} {
+          font-size: 14px;
+          line-height: 24px;
+          letter-spacing: -0.28px;
+        }
+      }
+
+      .location-img,
+      .phone-icon {
+        height: 21px;
+      }
+
+      &:first-child {
+        padding-top: 0px;
+      }
+    }
+
+    .help-advice-header {
+      cursor: pointer;
+
+      .info-title {
+        font-size: 25px;
+        line-height: 35px;
+        letter-spacing: 0.61px;
+        color: $black;
+
+        @media #{$md} {
+          font-size: 22px;
+          line-height: 30px;
+          letter-spacing: -0.45px;
+        }
+      }
+
+      .accordion-img {
+        min-height: 30px;
+        min-width: 30px;
+        background: #b08d59;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+          height: 10px;
+        }
+      }
+
+      &.active {
+        .accordion-img {
+          img {
+            transform: rotate(180deg);
+            transition: all 0.3s ease-in-out;
+          }
+        }
+      }
+    }
+  }
+
+  .contact-details-title {
+    font-size: 40px;
+    line-height: 62px;
+    letter-spacing: -0.9px;
+    color: $black;
+
+    @media #{$md} {
+      font-size: 30px;
+      line-height: 40px;
+      letter-spacing: -0.54px;
+    }
+  }
+
+  .info-card {
+    background-color: $theme-light;
+    padding: 30px;
+    border-radius: 4px;
+    height: 100%;
+
+    .info-card-title {
+      font-size: 20px;
+      line-height: 25px;
+      color: $black;
+      margin-bottom: 21px;
+      letter-spacing: -0.2px;
+    }
+
+    .info-card-desc,
+    .info-card-call {
+      img {
+        width: 10px;
+      }
+
+      span {
+        font-size: 16px;
+        line-height: 24px;
+        color: $black;
+        letter-spacing: -0.32px;
+      }
+    }
+  }
+
+}

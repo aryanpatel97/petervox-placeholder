@@ -1,0 +1,54 @@
+.header-slider,
+.help-slider,
+.history-slider,
+.card-slider,
+.we-family-slider {
+  .slick-list {
+    margin-left: -8px;
+    margin-right: -8px;
+
+    .slick-slide {
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+  }
+}
+
+.header-slider {
+  .slick-list {
+    overflow: visible;
+  }
+}
+
+.testimonial-slider {
+  .slick-list {
+    margin-left: -8px !important;
+    margin-right: -8px !important;
+
+    .slick-slide {
+      padding-left: 8px !important;
+      padding-right: 8px !important;
+    }
+  }
+}
+
+.history-slider {
+  .slick-list {
+    overflow: visible;
+
+    .slick-current {
+      .our-history {
+        .history-number {
+          background-color: $black;
+          color: $white;
+        }
+      }
+    }
+  }
+}
+
+.card-slider {
+  .slick-list {
+    overflow: visible;
+  }
+}

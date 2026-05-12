@@ -1,0 +1,62 @@
+/* =========================
+   THEME: DARK (default)
+========================= */
+.header.theme-dark {
+  background-color: #000;
+}
+.header.theme-dark .top-header {
+  background-color: #000;
+  color: #fff;
+}
+.header.theme-dark .top-header a {
+  color: #fff;
+}
+.header.theme-dark .top-header .header-center {
+  color: #fff;
+}
+.header.theme-dark .main-header .nav-link {
+  color: #fff;
+}
+.header.theme-dark .white-logo {
+  display: block !important;
+}
+.header.theme-dark .dark-logo {
+  display: none !important;
+}
+
+/* =========================
+   THEME: LIGHT
+========================= */
+.header.theme-light {
+  background-color: #fff;
+}
+.header.theme-light .top-header {
+  background-color: #fff;
+  color: #000;
+}
+.header.theme-light .top-header a {
+  color: #000;
+}
+.header.theme-light .top-header .header-center {
+  color: #000;
+}
+.header.theme-light .top-header .header-center-blue {
+  color: #666;
+}
+.header.theme-light .main-header .nav-link {
+  color: #000;
+}
+.header.theme-light .white-logo {
+  display: none !important;
+}
+.header.theme-light .dark-logo {
+  display: block !important;
+}
+
+.theme-light .btnA {
+  color: #000;
+}
+
+.theme-dark .btnA {
+  color: #fff;
+}/*# sourceMappingURL=header-new.css.map */

@@ -1,0 +1,50 @@
+.bg-white {
+  background-color: $white;
+}
+
+.bg-theme-secondary {
+  background: $theme-secondary;
+}
+
+.theme-primary {
+  background: $theme-primary;
+}
+
+.black-border-bottom {
+  border: 1px solid rgba($color: $black, $alpha: 0.2);
+  margin-top: 58px;
+  margin-bottom: 58px;
+
+  @media #{$md} {
+    margin-top: 48px;
+    margin-bottom: 48px;
+  }
+}
+
+.bg-layer {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.37);
+  z-index: 1;
+}
+
+.social-icons {
+
+  .social-img {
+    width: 18px;
+  }
+}
+
+.overlap-section {
+  position: relative;
+  margin-top: -160px;
+  z-index: 5;
+
+  @media #{$lg} {
+    margin-top: -190px;
+  }
+
+  @media #{$md} {
+    margin-top: -170px;
+  }
+}

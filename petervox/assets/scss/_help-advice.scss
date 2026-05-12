@@ -1,0 +1,17 @@
+.sub-hero-img-section {
+  height: 478px;
+
+  .search-title {
+    color: $white;
+    font-size: 60px;
+    line-height: 62px;
+    letter-spacing: -1.08px;
+    margin-bottom: 21px;
+
+    @media #{$md} {
+      font-size: 30px;
+      line-height: 40px;
+      letter-spacing: -0.54px;
+    }
+  }
+}

@@ -1,0 +1,144 @@
+.sub-hero-section {
+  height: 608px;
+
+  @media #{$md} {
+    height: 565px;
+  }
+
+  .sub-hero-content {
+    transform: translate(-50%, -50%);
+    top: 60%;
+    left: 50%;
+    z-index: 5 !important;
+  }
+
+  .sub-hero-title {
+    font-size: 60px;
+    line-height: 62px;
+    letter-spacing: -1.08px;
+    color: $white;
+
+    @media #{$md} {
+      font-size: 35px;
+      line-height: 40px;
+      letter-spacing: -0.63px;
+    }
+  }
+
+  .sub-hero-desc {
+    font-size: 16px;
+    line-height: 26px;
+    padding-top: 13px;
+    padding-bottom: 29px;
+    letter-spacing: 0.32px;
+    color: $white;
+
+    @media #{$md} {
+      font-size: 14px;
+      line-height: 22px;
+      letter-spacing: -0.28px;
+    }
+  }
+}
+
+.direct-sub-hero-section {
+  background-color: $theme-primary;
+
+  .direct-cremation-title {
+    font-size: 34px;
+    line-height: 47px;
+    letter-spacing: -0.61px;
+    color: $white;
+    margin-top: 101px;
+  }
+
+  .direct-cremation-description {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    line-height: 26px;
+    letter-spacing: -0.32px;
+    color: $white;
+  }
+
+  .direct-cremation-btn {
+    margin-bottom: 112px;
+  }
+}
+
+.sticky-image-section {
+  background-color: #ededed;
+  padding-top: 100px;
+  padding-bottom: 265px;
+
+   @media #{$md}{
+    padding-top: 60px;
+    padding-bottom: 200px;
+   }
+
+  .left-img-section {
+    position: sticky;
+    top: 205px;
+    height: 530px;
+    display: block;
+    border-radius: 10px;
+    overflow: hidden;
+
+    @media #{$md} {
+      height: 320px;
+      margin-bottom: 30px;
+    }
+  }
+
+  .right-content-section {
+
+    .content-maintitle {
+      font-size: 40px;
+      line-height: 50px;
+      letter-spacing: -0.9px;
+      color: $black;
+
+      @media #{$md} {
+        font-size: 30px;
+        line-height: 40px;
+        letter-spacing: -0.54px;
+      }
+    }
+
+    .right-innner-content {
+
+      .content-title {
+        font-size: 28px;
+        line-height: 35px;
+        letter-spacing: -0.61px;
+        color: $black;
+        margin-top: 30px;
+
+        @media #{$md} {
+          font-size: 25px;
+          line-height: 30px;
+          letter-spacing: -0.45px;
+        }
+      }
+
+      .content-description {
+        font-size: 14px;
+        line-height: 24px;
+        color: $black;
+        letter-spacing: 0.30px;
+        margin-top: 18px;
+        margin-bottom: 30px;
+
+        @media #{$md} {
+          font-size: 14px;
+          line-height: 24px;
+          letter-spacing: -0.28px;
+        }
+      }
+
+      .return-care-btn {
+        margin-bottom: 95px;
+      }
+    }
+  }
+}

@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premier & Team Documentation</title>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="container text-center">
+            <a href="#" class="doc-logo">
+                <img src="assets/images/white-brand-logo.svg" alt="">
+            </a>
+        </div>
+    </header>
+
+    <main class="main-wrapper">
+
+        <!-- INTRODUCTION -->
+        <section class="doc-section">
+            <div class="container">
+                <div class="row justify-content-center">
+
+                    <div class="col-lg-10">
+
+                        <h2 class="section-title">
+                            Introduction
+                        </h2>
+
+                        <div class="content-box">
+
+                            <p>
+                                Thank you for purchasing
+                                <strong>Petervox & Team</strong>.
+                                We appreciate your trust in our professional legal website template designed
+                                specifically for law firms, attorneys, legal advisors, and consulting agencies.
+                            </p>
+
+                            <p>
+                                <strong>Petervox & Team</strong>
+                                is a premium HTML template built with modern UI design and responsive layouts. It
+                                includes legal service pages, attorney showcases, testimonials, consultation forms, and
+                                business-focused sections tailored for legal professionals.
+                            </p>
+
+                            <p>
+                                This documentation will help you understand installation, customization, theme
+                                structure, SCSS workflow, and all essential files needed to build your legal website
+                                quickly and efficiently.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- FILE STRUCTURE -->
+        <section class="doc-section">
+            <div class="container">
+                <div class="row justify-content-center">
+
+                    <div class="col-lg-10">
+
+                        <h2 class="section-title">
+                            File Structure
+                        </h2>
+
+                        <div class="content-box">
+
+                            <p>
+                                After extracting the package, you will find the following file structure:
+                            </p>
+
+                            <div class="code-box">
+
+                                <pre>
+Petervox-team/
+├── assets/
+│   ├── css/
+│   ├── font/
+│   ├── image/
+│   ├── js/
+│   └── scss/   
+├── index.html
+├── about.html
+├── services.html
+├── attorneys.html
+├── faq.html
+├── contact.html
+└── ...
+</pre>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- INSTALLATION -->
+        <section class="doc-section">
+            <div class="container">
+                <div class="row justify-content-center">
+
+                    <div class="col-lg-10">
+
+                        <h2 class="section-title">
+                            Installation
+                        </h2>
+
+                        <div class="content-box">
+
+                            <p>
+                                To customize the template styles using SCSS, install Node.js and Sass on your system.
+                            </p>
+
+                            <h5 class="mb-3">
+                                1. Install Sass
+                            </h5>
+
+                            <div class="code-box">
+                                <pre>
+npm install -g sass
+</pre>
+                            </div>
+
+                            <br>
+
+                            <h5 class="mb-3">
+                                2. Compile SCSS
+                            </h5>
+
+                            <div class="code-box">
+                                <pre>
+sass --watch assets/scss/style.scss assets/css/style.css
+</pre>
+                            </div>
+
+                            <div class="note-box">
+
+                                <p>
+                                    Make sure Node.js is installed before running SCSS commands.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- PAGES -->
+        <section class="doc-section">
+            <div class="container">
+                <div class="row justify-content-center">
+
+                    <div class="col-lg-10">
+
+                        <h2 class="section-title">
+                            Pages
+                        </h2>
+
+                        <div class="content-box">
+
+                            <div class="table-wrapper">
+
+                                <table>
+
+                                    <thead>
+
+                                        <tr>
+                                            <th>File Name</th>
+                                            <th>Description</th>
+                                        </tr>
+
+                                    </thead>
+
+                                    <tbody>
+
+                                        <tr>
+                                            <td>
+                                                <code>index.html</code>
+                                            </td>
+                                            <td>
+                                                Main lawyer website homepage.
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <code>about.html</code>
+                                            </td>
+                                            <td>
+                                                Law firm introduction page.
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <code>services.html</code>
+                                            </td>
+                                            <td>
+                                                Legal services and practice areas.
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <code>attorneys.html</code>
+                                            </td>
+                                            <td>
+                                                Team members and attorneys page.
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <code>faq.html</code>
+                                            </td>
+                                            <td>
+                                                Frequently asked legal questions.
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <code>contact.html</code>
+                                            </td>
+                                            <td>
+                                                Contact information and consultation form.
+                                            </td>
+                                        </tr>
+
+                                    </tbody>
+
+                                </table>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- TYPOGRAPHY -->
+        <section class="doc-section">
+            <div class="container">
+                <div class="row justify-content-center">
+
+                    <div class="col-lg-10">
+
+                        <h2 class="section-title">
+                            Typography
+                        </h2>
+
+                        <div class="content-box">
+
+                            <p>
+                                The template uses premium typography styles to create a modern and trustworthy legal
+                                brand appearance.
+                            </p>
+
+                            <div class="code-box">
+
+                                <pre>
+Primary Font  : Montserrat
+Heading Style : Bold Elegant
+Body Text     : Clean & Readable
+Button Style  : Premium Gold Theme
+</pre>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- SOURCE FILES -->
+        <section class="doc-section">
+            <div class="container">
+                <div class="row justify-content-center">
+
+                    <div class="col-lg-10">
+
+                        <h2 class="section-title">
+                            Source Files
+                        </h2>
+
+                        <div class="content-box">
+
+                            <div class="table-wrapper">
+
+                                <table>
+
+                                    <thead>
+
+                                        <tr>
+                                            <th>File</th>
+                                            <th>Description</th>
+                                        </tr>
+
+                                    </thead>
+
+                                    <tbody>
+
+                                        <tr>
+                                            <td>
+                                                <code>_variables.scss</code>
+                                            </td>
+                                            <td>
+                                                Theme colors and global variables.
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <code>_header.scss</code>
+                                            </td>
+                                            <td>
+                                                Header and navigation styling.
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <code>_footer.scss</code>
+                                            </td>
+                                            <td>
+                                                Footer styling and layout.
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <code>_home.scss</code>
+                                            </td>
+                                            <td>
+                                                Homepage section styles.
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <code>style.scss</code>
+                                            </td>
+                                            <td>
+                                                Main SCSS file.
+                                            </td>
+                                        </tr>
+
+                                    </tbody>
+
+                                </table>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- JAVASCRIPT -->
+        <section class="doc-section">
+            <div class="container">
+                <div class="row justify-content-center">
+
+                    <div class="col-lg-10">
+
+                        <h2 class="section-title">
+                            JavaScript Files
+                        </h2>
+
+                        <div class="content-box">
+
+                            <div class="table-wrapper">
+
+                                <table>
+
+                                    <thead>
+
+                                        <tr>
+                                            <th>File</th>
+                                            <th>Purpose</th>
+                                        </tr>
+
+                                    </thead>
+
+                                    <tbody>
+
+                                        <tr>
+                                            <td>
+                                                <code>bootstrap.min.js</code>
+                                            </td>
+                                            <td>
+                                                Bootstrap functionality.
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <code>main.js</code>
+                                            </td>
+                                            <td>
+                                                Main theme interactions.
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <code>slider.js</code>
+                                            </td>
+                                            <td>
+                                                Testimonial and service sliders.
+                                            </td>
+                                        </tr>
+
+                                    </tbody>
+
+                                </table>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- CUSTOMIZATION -->
+        <!-- CUSTOMIZATION -->
+        <section class="doc-section">
+            <div class="container">
+
+                <div class="row justify-content-center">
+
+                    <div class="col-lg-10">
+
+                        <h2 class="section-title">
+                            Customization
+                        </h2>
+
+                        <div class="content-box">
+
+                            <p class="mb-5">
+                                Follow these simple steps to customize your legal website branding, logos, and footer
+                                copyright text.
+                            </p>
+
+                            <!-- CHANGE LOGO -->
+                            <div class="customization-item mb-5">
+
+                                <h4 class="custom-title">
+                                    How to Change Logo
+                                </h4>
+
+                                <p class="custom-desc">
+                                    To update the brand logo, locate the
+                                    <code>&lt;header&gt;</code>
+                                    and
+                                    <code>&lt;footer&gt;</code>
+                                    sections in your HTML files and update the image source path.
+                                </p>
+
+                                <!-- IMAGE -->
+                                <div class="custom-img mb-4">
+                                    <img src="assets/images/white-logo-change-img.png" alt="">
+                                </div>
+
+                                <!-- IMAGE -->
+                                <div class="custom-img mb-4">
+                                    <img src="assets/images/dark-logo-chnageimg.png" alt="">
+                                </div>
+
+                                <!-- CODE -->
+                                <div class="code-box">
+
+                                    <pre>
+&lt;!-- Locate the logo class and update the src --&gt;
+
+&lt;div class="white-logo"&gt;
+    &lt;img class="w-100 py-2" src="assets/image/white-brand-logo.svg" alt=""&gt;
+&lt;/div&gt;
+
+&lt;div class="dark-logo mx-auto"&gt;
+    &lt;img class="w-100 py-2" src="assets/image/final.svg" alt=""&gt;
+&lt;/div&gt;
+</pre>
+
+                                </div>
+
+                            </div>
+
+                            <!-- COPYRIGHT -->
+                            <div class="customization-item">
+
+                                <h4 class="custom-title">
+                                    How to Change Copyright Text
+                                </h4>
+
+                                <p class="custom-desc">
+                                    The copyright information is located at the bottom of the
+                                    <code>&lt;footer&gt;</code>.
+                                    Simply search for the
+                                    <code>"copyrights-text"</code>
+                                    class and edit the text.
+                                </p>
+
+                                <!-- IMAGE -->
+                                <div class="custom-img mb-4">
+                                    <img src="assets/image/change-copyright.png" alt="">
+                                </div>
+
+                                <!-- CODE -->
+                                <div class="code-box">
+
+                                    <pre>
+&lt;!-- Update the text within the copyright paragraph --&gt;
+
+&lt;div class="copyrights-text"&gt;
+    &lt;p&gt;Copyright 2026 &lt;a href="#"&gt;Premier & Team&lt;/a&gt;.
+    All rights reserved.&lt;/p&gt;
+&lt;/div&gt;
+</pre>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- THEME COLORS -->
+        <section class="doc-section">
+            <div class="container">
+                <div class="row justify-content-center">
+
+                    <div class="col-lg-10">
+
+                        <h2 class="section-title">
+                            Theme Colors
+                        </h2>
+
+                        <div class="content-box">
+
+                            <p>
+                                Edit theme colors globally from the SCSS variable.scss file.
+                            </p>
+
+                            <div class="theme-color-box">
+
+                                <pre>
+$theme-primary   : #34373e;
+$theme-secondary : #b08d59;
+$theme-light     : #ededed;
+$black: #000000;
+$white: #ffffff;
+$text-primary: #25345e;
+</pre>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- SUPPORT -->
+
+
+    </main>
+
+</body>
+
+</html>

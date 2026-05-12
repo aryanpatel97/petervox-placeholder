@@ -1,0 +1,82 @@
+.btnA {
+    height: 49px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 4px;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+
+    &.bg-93855A-btn {
+        background-color: $theme-secondary;
+        color: $white;
+        font-size: 14px;
+        letter-spacing: 2px;
+        font-family: "googlesans-regular";
+        transition: 0.3s ease;
+
+        &:hover {
+            background-color: #7c6f4d;
+        }
+    }
+
+    &.bg-transparent-btn {
+        background-color: transparent;
+        color: white;
+        border: 1px solid #fff;
+        font-size: 14px;
+        line-height: 61px;
+        letter-spacing: -0.16px;
+        font-family: "googlesans-regular";
+
+
+        &:hover {
+            background-color: $white;
+            border: 1px solid transparent;
+            color: $black;
+
+            .btn-arrow {
+                &::after {
+                    filter: invert(1);
+                }
+
+                img {
+                    filter: invert(1);
+                }
+            }
+        }
+    }
+
+    .btn-arrow {
+        width: 8px;
+
+        &::after {
+            content: "";
+            position: absolute;
+            top: 0%;
+            right: 50px;
+            transform: translate(0px, 10px);
+            height: 30px;
+            border: 1px solid rgba(255, 255, 255, 0.4);
+        }
+    }
+}
+
+.btnB {
+
+    .prev-arrow,
+    .next-arrow {
+        width: 40px;
+        height: 40px;
+        border-radius: 6px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: $theme-secondary;
+        cursor: pointer;
+        transition: all 0.3s ease;
+
+        img {
+            width: 8px;
+        }
+    }
+}

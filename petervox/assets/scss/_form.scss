@@ -1,0 +1,187 @@
+input,
+select {
+  height: 52px;
+}
+
+.light-input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid $white;
+  border-radius: 0;
+  width: 100%;
+  color: $white;
+
+  &::placeholder {
+    color: rgba($white, 0.4);
+  }
+
+  &:focus {
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+select.light-input {
+  color: rgba($white, 0.6);
+
+  option {
+    color: $black;
+  }
+}
+
+textarea {
+  background-color: transparent;
+  color: $white;
+  border: 0;
+  border-bottom: 1px solid $white;
+  border-radius: 0;
+  width: 100%;
+  resize: none;
+  padding-top: 12px;
+
+  &::placeholder {
+    color: rgba($white, 0.4);
+  }
+
+  &:focus {
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+.search-box {
+  .search-input {
+    width: 100%;
+    padding: 15px 50px 15px 20px;
+    border-radius: 6px;
+    border: none;
+    background-color: transparent;
+    border: 1px solid $white;
+    color: $white;
+
+    &::placeholder {
+      color: #cfcfcf;
+    }
+
+    &:focus {
+      outline: none;
+      box-shadow: none;
+    }
+  }
+
+  .search-icon {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+
+    img {
+      width: 19px;
+    }
+  }
+}
+
+.form-check-input {
+  background-color: transparent;
+  border: 1px solid $white;
+  height: 24px;
+  width: 24px;
+
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+.form-check-label {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.32px;
+  color: $white;
+}
+
+.custom-select-wrapper {
+  position: relative;
+
+  .category-select {
+    width: 100%;
+    background-color: transparent;
+    color: $white;
+    border: none;
+    border-bottom: 1px solid $white;
+    border-radius: 6px;
+    appearance: none;
+    border-radius: 0px;
+
+    &:focus {
+      outline: none;
+      box-shadow: none;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      right: 0;
+      top: 0;
+      background-image: url("/assets/img/up-arrow.svg");
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 24px;
+      height: 24px;
+      background-size: cover;
+    }
+  }
+
+  .select-icon {
+    position: absolute;
+    top: 45%;
+    right: 15px;
+    transform: translateY(-50%);
+    pointer-events: none;
+
+    img {
+      width: 14px;
+    }
+  }
+
+
+}
+
+.check-container {
+  height: 29px;
+  cursor: pointer;
+  padding-left: 4px !important;
+
+  input {
+    height: 100%;
+    width: 100%;
+    z-index: 999;
+    cursor: pointer;
+
+    &:checked~.check-btn::after {
+      display: block;
+    }
+  }
+
+  .check-btn {
+    height: 25px !important;
+    width: 25px !important;
+    left: -5%;
+    border: 1px solid $white;
+    cursor: pointer;
+    border-radius: 4px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 7px;
+      left: 6px;
+      border: solid $white;
+      border-width: 0px 0px 2px 2px;
+      height: 6px;
+      width: 12px;
+      transform: rotate(310deg);
+      display: none;
+    }
+  }
+}
