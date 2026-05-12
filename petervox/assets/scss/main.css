@@ -950,14 +950,14 @@ body {
     padding-bottom: 60px;
   }
 }
-.footer .footer-artical {
+.footer .copyrights-text {
   font-size: 12px;
   line-height: 13px;
   color: #081948;
   opacity: 50%;
 }
 @media (max-width: 991px) {
-  .footer .footer-artical {
+  .footer .copyrights-text {
     padding-top: 45px;
     padding-bottom: 30px;
   }

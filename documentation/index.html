@@ -91,13 +91,14 @@ Petervox-team/
 │   ├── image/
 │   ├── js/
 │   └── scss/   
-├── index.html
-├── about.html
-├── services.html
-├── attorneys.html
-├── faq.html
+├── about-us.html
 ├── contact.html
-└── ...
+├── help-advice.html
+├── index.html
+├── our-story.html
+├── practice-area.html
+├── preview.html
+└── privacy.html
 </pre>
 
                             </div>
@@ -166,8 +167,10 @@ sass --watch assets/scss/style.scss assets/css/style.css
         </section>
 
         <!-- PAGES -->
+        <!-- PAGES -->
         <section class="doc-section">
             <div class="container">
+
                 <div class="row justify-content-center">
 
                     <div class="col-lg-10">
@@ -197,44 +200,65 @@ sass --watch assets/scss/style.scss assets/css/style.css
                                             <td>
                                                 <code>index.html</code>
                                             </td>
+
                                             <td>
-                                                Main lawyer website homepage.
+                                                Main homepage featuring legal services, hero banner, consultation
+                                                sections, and client testimonials.
                                             </td>
                                         </tr>
 
                                         <tr>
                                             <td>
-                                                <code>about.html</code>
+                                                <code>about-us.html</code>
                                             </td>
+
                                             <td>
-                                                Law firm introduction page.
+                                                Detailed law firm introduction including company history, mission, legal
+                                                expertise, and team overview.
                                             </td>
                                         </tr>
 
                                         <tr>
                                             <td>
-                                                <code>services.html</code>
+                                                <code>practice-area.html</code>
                                             </td>
+
                                             <td>
-                                                Legal services and practice areas.
+                                                Showcase of legal practice areas including corporate law, family law,
+                                                litigation, and legal consultation services.
                                             </td>
                                         </tr>
 
                                         <tr>
                                             <td>
-                                                <code>attorneys.html</code>
+                                                <code>our-story.html</code>
                                             </td>
+
                                             <td>
-                                                Team members and attorneys page.
+                                                Timeline-based storytelling page presenting the journey, achievements,
+                                                and growth of the law firm.
                                             </td>
                                         </tr>
 
                                         <tr>
                                             <td>
-                                                <code>faq.html</code>
+                                                <code>help-advice.html</code>
                                             </td>
+
                                             <td>
-                                                Frequently asked legal questions.
+                                                Helpful legal guidance, professional advice, and informational resources
+                                                for clients and businesses.
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <code>privacy.html</code>
+                                            </td>
+
+                                            <td>
+                                                Privacy policy and legal information explaining user data handling and
+                                                website terms.
                                             </td>
                                         </tr>
 
@@ -242,8 +266,21 @@ sass --watch assets/scss/style.scss assets/css/style.css
                                             <td>
                                                 <code>contact.html</code>
                                             </td>
+
                                             <td>
-                                                Contact information and consultation form.
+                                                Contact page with consultation form, office information, enquiry
+                                                details, and location section.
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <code>preview.html</code>
+                                            </td>
+
+                                            <td>
+                                                Template preview page showcasing all available layouts, sections, and
+                                                design elements.
                                             </td>
                                         </tr>
 
@@ -258,6 +295,7 @@ sass --watch assets/scss/style.scss assets/css/style.css
                     </div>
 
                 </div>
+
             </div>
         </section>
 
@@ -282,10 +320,8 @@ sass --watch assets/scss/style.scss assets/css/style.css
                             <div class="code-box">
 
                                 <pre>
-Primary Font  : Montserrat
-Heading Style : Bold Elegant
-Body Text     : Clean & Readable
-Button Style  : Premium Gold Theme
+Primary Font  : instrumentsans-regular
+Heading Style : googlesans-regular
 </pre>
 
                             </div>
@@ -299,8 +335,10 @@ Button Style  : Premium Gold Theme
         </section>
 
         <!-- SOURCE FILES -->
+        <!-- SOURCE FILES -->
         <section class="doc-section">
             <div class="container">
+
                 <div class="row justify-content-center">
 
                     <div class="col-lg-10">
@@ -328,19 +366,43 @@ Button Style  : Premium Gold Theme
 
                                         <tr>
                                             <td>
-                                                <code>_variables.scss</code>
+                                                <code>_buttons.scss</code>
                                             </td>
+
                                             <td>
-                                                Theme colors and global variables.
+                                                Contains all button styles, hover effects, and theme button variations.
                                             </td>
                                         </tr>
 
                                         <tr>
                                             <td>
-                                                <code>_header.scss</code>
+                                                <code>_common.scss</code>
                                             </td>
+
                                             <td>
-                                                Header and navigation styling.
+                                                Global styling, utility classes, spacing, typography, and reusable
+                                                common elements.
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <code>_contact.scss</code>
+                                            </td>
+
+                                            <td>
+                                                Contact page layouts, enquiry forms, office details, and contact section
+                                                styles.
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <code>_font.scss</code>
+                                            </td>
+
+                                            <td>
+                                                Font-family imports, typography settings, and font utility classes.
                                             </td>
                                         </tr>
 
@@ -348,8 +410,42 @@ Button Style  : Premium Gold Theme
                                             <td>
                                                 <code>_footer.scss</code>
                                             </td>
+
                                             <td>
-                                                Footer styling and layout.
+                                                Footer layout, copyright section, social icons, and bottom navigation
+                                                styles.
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <code>_form.scss</code>
+                                            </td>
+
+                                            <td>
+                                                Form input fields, textarea styling, select dropdowns, and checkbox
+                                                customization.
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <code>_header.scss</code>
+                                            </td>
+
+                                            <td>
+                                                Website header, navigation menu, sticky header, and mobile menu styles.
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <code>_help-advice.scss</code>
+                                            </td>
+
+                                            <td>
+                                                Help & advice page sections, informational cards, and legal support
+                                                layouts.
                                             </td>
                                         </tr>
 
@@ -357,17 +453,73 @@ Button Style  : Premium Gold Theme
                                             <td>
                                                 <code>_home.scss</code>
                                             </td>
+
                                             <td>
-                                                Homepage section styles.
+                                                Homepage hero banner, services, testimonials, and featured content
+                                                styles.
                                             </td>
                                         </tr>
 
                                         <tr>
                                             <td>
-                                                <code>style.scss</code>
+                                                <code>_our-story.scss</code>
                                             </td>
+
                                             <td>
-                                                Main SCSS file.
+                                                Timeline design, company history section, and storytelling page styles.
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <code>_practice-area.scss</code>
+                                            </td>
+
+                                            <td>
+                                                Legal practice area cards, services layout, and case category styling.
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <code>_slick.scss</code>
+                                            </td>
+
+                                            <td>
+                                                Slick slider customization, carousel controls, and responsive slider
+                                                styling.
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <code>_terms-conditions.scss</code>
+                                            </td>
+
+                                            <td>
+                                                Terms & conditions page layout and legal document section styling.
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <code>_variable.scss</code>
+                                            </td>
+
+                                            <td>
+                                                Theme variables including colors, font sizes, transitions, and spacing
+                                                values.
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <code>_why-us.scss</code>
+                                            </td>
+
+                                            <td>
+                                                Why choose us section, trust indicators, achievements, and feature
+                                                blocks.
                                             </td>
                                         </tr>
 
@@ -382,12 +534,15 @@ Button Style  : Premium Gold Theme
                     </div>
 
                 </div>
+
             </div>
         </section>
 
         <!-- JAVASCRIPT -->
+        <!-- JAVASCRIPT FILES -->
         <section class="doc-section">
             <div class="container">
+
                 <div class="row justify-content-center">
 
                     <div class="col-lg-10">
@@ -415,19 +570,67 @@ Button Style  : Premium Gold Theme
 
                                         <tr>
                                             <td>
-                                                <code>bootstrap.min.js</code>
+                                                <code>accordion.js</code>
                                             </td>
+
                                             <td>
-                                                Bootstrap functionality.
+                                                Handles accordion functionality for FAQs, help sections, and collapsible
+                                                content areas.
                                             </td>
                                         </tr>
 
                                         <tr>
                                             <td>
-                                                <code>main.js</code>
+                                                <code>bootstrap.min.js</code>
                                             </td>
+
                                             <td>
-                                                Main theme interactions.
+                                                Provides Bootstrap components such as modals, dropdowns, offcanvas
+                                                menus, and responsive interactions.
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <code>counter.js</code>
+                                            </td>
+
+                                            <td>
+                                                Controls animated number counters used for achievements, statistics, and
+                                                firm success metrics.
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <code>header.js</code>
+                                            </td>
+
+                                            <td>
+                                                Manages sticky header behavior, navigation interactions, and mobile menu
+                                                functionality.
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <code>privacy.js</code>
+                                            </td>
+
+                                            <td>
+                                                Handles privacy policy interactions, active navigation states, and legal
+                                                information sections.
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <code>slick.min.js</code>
+                                            </td>
+
+                                            <td>
+                                                Core Slick Slider library used for responsive carousels, testimonials,
+                                                and image sliders.
                                             </td>
                                         </tr>
 
@@ -435,8 +638,10 @@ Button Style  : Premium Gold Theme
                                             <td>
                                                 <code>slider.js</code>
                                             </td>
+
                                             <td>
-                                                Testimonial and service sliders.
+                                                Custom slider initialization and settings for testimonial sliders, team
+                                                members, and featured sections.
                                             </td>
                                         </tr>
 
@@ -451,108 +656,155 @@ Button Style  : Premium Gold Theme
                     </div>
 
                 </div>
+
             </div>
         </section>
 
         <!-- CUSTOMIZATION -->
         <!-- CUSTOMIZATION -->
-        <section class="doc-section">
-            <div class="container">
+<section class="doc-section">
+    <div class="container">
 
-                <div class="row justify-content-center">
+        <div class="row justify-content-center">
 
-                    <div class="col-lg-10">
+            <div class="col-lg-10">
 
-                        <h2 class="section-title">
-                            Customization
-                        </h2>
+                <h2 class="section-title">
+                    Customization
+                </h2>
 
-                        <div class="content-box">
+                <div class="content-box">
 
-                            <p class="mb-5">
-                                Follow these simple steps to customize your legal website branding, logos, and footer
-                                copyright text.
-                            </p>
+                    <p class="mb-5">
+                        Follow these simple steps to customize your legal website branding,
+                        logos, hero video, and footer copyright text.
+                    </p>
 
-                            <!-- CHANGE LOGO -->
-                            <div class="customization-item mb-5">
+                    <!-- CHANGE LOGO -->
+                    <div class="customization-item mb-5">
 
-                                <h4 class="custom-title">
-                                    How to Change Logo
-                                </h4>
+                        <h4 class="custom-title">
+                            How to Change Logo
+                        </h4>
 
-                                <p class="custom-desc">
-                                    To update the brand logo, locate the
-                                    <code>&lt;header&gt;</code>
-                                    and
-                                    <code>&lt;footer&gt;</code>
-                                    sections in your HTML files and update the image source path.
-                                </p>
+                        <p class="custom-desc">
+                            To update the brand logo, locate the
+                            <code>&lt;header&gt;</code>
+                            and
+                            <code>&lt;footer&gt;</code>
+                            sections in your HTML files and update the image source path.
+                        </p>
 
-                                <!-- IMAGE -->
-                                <div class="custom-img mb-4">
-                                    <img src="assets/images/white-logo-change-img.png" alt="">
-                                </div>
+                        <!-- IMAGE -->
+                        <div class="custom-img mb-4">
+                            <img src="assets/images/white-logo-img.png" alt="">
+                        </div>
 
-                                <!-- IMAGE -->
-                                <div class="custom-img mb-4">
-                                    <img src="assets/images/dark-logo-chnageimg.png" alt="">
-                                </div>
+                        <!-- IMAGE -->
+                        <div class="custom-img mb-4">
+                            <img src="assets/images/dark-logo-img.png" alt="">
+                        </div>
 
-                                <!-- CODE -->
-                                <div class="code-box">
+                        <!-- CODE -->
+                        <div class="code-box">
 
-                                    <pre>
+<pre>
 &lt;!-- Locate the logo class and update the src --&gt;
 
 &lt;div class="white-logo"&gt;
-    &lt;img class="w-100 py-2" src="assets/image/white-brand-logo.svg" alt=""&gt;
+    &lt;img class="w-100 py-2" 
+    src="assets/img/white-brand-logo.svg" alt=""&gt;
 &lt;/div&gt;
 
 &lt;div class="dark-logo mx-auto"&gt;
-    &lt;img class="w-100 py-2" src="assets/image/final.svg" alt=""&gt;
+    &lt;img class="w-100 py-2" 
+    src="assets/img/final.svg" alt=""&gt;
 &lt;/div&gt;
 </pre>
 
-                                </div>
+                        </div>
 
-                            </div>
+                    </div>
 
-                            <!-- COPYRIGHT -->
-                            <div class="customization-item">
+                    <!-- COPYRIGHT -->
+                    <div class="customization-item mb-5">
 
-                                <h4 class="custom-title">
-                                    How to Change Copyright Text
-                                </h4>
+                        <h4 class="custom-title">
+                            How to Change Copyright Text
+                        </h4>
 
-                                <p class="custom-desc">
-                                    The copyright information is located at the bottom of the
-                                    <code>&lt;footer&gt;</code>.
-                                    Simply search for the
-                                    <code>"copyrights-text"</code>
-                                    class and edit the text.
-                                </p>
+                        <p class="custom-desc">
+                            The copyright information is located at the bottom of the
+                            <code>&lt;footer&gt;</code>.
+                            Simply search for the
+                            <code>"copyrights-text"</code>
+                            class and edit the text.
+                        </p>
 
-                                <!-- IMAGE -->
-                                <div class="custom-img mb-4">
-                                    <img src="assets/image/change-copyright.png" alt="">
-                                </div>
+                        <!-- IMAGE -->
+                        <div class="custom-img mb-4">
+                            <img src="assets/images/copyright-img.png" alt="">
+                        </div>
 
-                                <!-- CODE -->
-                                <div class="code-box">
+                        <!-- CODE -->
+                        <div class="code-box">
 
-                                    <pre>
+<pre>
 &lt;!-- Update the text within the copyright paragraph --&gt;
 
-&lt;div class="copyrights-text"&gt;
-    &lt;p&gt;Copyright 2026 &lt;a href="#"&gt;Premier & Team&lt;/a&gt;.
-    All rights reserved.&lt;/p&gt;
+&lt;div class="copyrights-text col-md-6 col-12 
+text-uppercase order-2 order-lg-1 
+text-lg-start text-end"&gt;
+
+    DESIGN BY THE PROTHEMEBZAR
+
 &lt;/div&gt;
 </pre>
 
-                                </div>
+                        </div>
 
-                            </div>
+                    </div>
+
+                    <!-- HERO VIDEO -->
+                    <div class="customization-item">
+
+                        <h4 class="custom-title">
+                            How to Change Hero Video
+                        </h4>
+
+                        <p class="custom-desc">
+                            By default, the hero section displays a static image.
+                            To use a video background, comment out the
+                            <code>&lt;img&gt;</code>
+                            tag and uncomment the
+                            <code>&lt;video&gt;</code>
+                            tag in the Hero Section and add your video link.
+                        </p>
+
+                        <!-- IMAGE -->
+                        <div class="custom-img mb-4">
+                            <img src="assets/images/video-change-img.png" alt="">
+                        </div>
+
+                        <!-- CODE -->
+                        <div class="code-box">
+
+<pre>
+&lt;!-- 1. Comment the image tag --&gt;
+
+&lt;!-- 
+&lt;img src="assets/img/v1.png" 
+class="hero-video h-100 w-100 object-fit-cover" alt=""&gt; 
+--&gt;
+
+
+&lt;!-- 2. Uncomment the video tag and update the source path --&gt;
+
+&lt;video autoplay muted loop playsinline class="hero-video"&gt;
+    &lt;source src="assets/video/your-video.mp4" type="video/mp4"&gt;
+    Your browser does not support the video tag.
+&lt;/video&gt;
+</pre>
 
                         </div>
 
@@ -561,7 +813,11 @@ Button Style  : Premium Gold Theme
                 </div>
 
             </div>
-        </section>
+
+        </div>
+
+    </div>
+</section>
 
         <!-- THEME COLORS -->
         <section class="doc-section">
@@ -601,7 +857,77 @@ $text-primary: #25345e;
             </div>
         </section>
 
-        <!-- SUPPORT -->
+
+<section class="doc-section">
+    <div class="container">
+
+        <div class="row justify-content-center">
+
+            <div class="col-lg-10">
+
+                <h2 class="section-title">
+                    Theme Colors
+                </h2>
+
+                <div class="content-box custom-theme-box">
+
+                    <h4 class="custom-theme-title">
+                        Customize Website Colors
+                    </h4>
+
+                    <p class="custom-theme-desc">
+                        You can easily update your website branding colors from the SCSS variable file.
+                        Modify the primary, secondary, background, and button colors globally.
+                    </p>
+
+                    <div class="custom-theme-file">
+                        <code>assets/scss/_variable.scss</code>
+                    </div>
+
+                    <div class="theme-color-grid">
+
+                        <div class="theme-color-item">
+                            <span class="color-circle primary-color"></span>
+
+                            <div>
+                                <h5>$theme-primary</h5>
+                                <p>Main gold branding color</p>
+                            </div>
+                        </div>
+
+                        <div class="theme-color-item">
+                            <span class="color-circle secondary-color"></span>
+
+                            <div>
+                                <h5>$theme-secondary</h5>
+                                <p>Dark background color</p>
+                            </div>
+                        </div>
+
+                        <div class="theme-color-item">
+                            <span class="color-circle light-color"></span>
+
+                            <div>
+                                <h5>$theme-soft</h5>
+                                <p>Light background sections</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="custom-theme-note">
+                        Once you save the changes, all buttons, headings, cards,
+                        overlays, and website elements will automatically update.
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
 
 
     </main>
